@@ -1,5 +1,19 @@
-h1.main2019,
-h2.bbSectionHeader {
+body {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #101010;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1.mainDonationForm {
   text-align: center;
   font-weight: bold;
   font-family: franklin-gothic-urw-comp, Helvetica, Arial, sans-serif;
@@ -8,351 +22,62 @@ h2.bbSectionHeader {
   margin: 0.5em 0 1em 0;
 }
 
-.mini-donation {
-  background-color: transparent;
+.donation-form-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  float: none !important;
 }
 
-.mini-donation * {
+.donation-form-row {
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.donation-form-introduction {
+  font-size: 18px;
+  line-height: 1.5;
   font-family: "franklin-gothic-urw", arial, sans-serif !important;
 }
 
-.bbminiform-container {
-  background: transparent;
+.donation-form-intro-line {
+  margin: 18px 0px 18px 0px;
 }
 
-.bbminiform-amtbox {
-  background-color: #fff;
+iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+  background-color: #fafafa !important;
+  width: 80% !important;
+  max-width: 1000px !important;
 }
 
-.bbminiform-amtbox.bbminiform-amtbox-active,
-.mdfGiftTypeBtnMain.mdfGiftTypeBtnMainSelected,
-button.btnWizardContinue,
-.bcmsWizard
-  > .bcmsWizardStepsContainer
-  > .bcmsWizardSteps
-  > .bcmsWizardStep
-  > .btn-selected {
-  background-color: #003d79;
-  color: #fff;
-  font-size: 16px;
+iframe.blackbaud-donation-form {
+  background-color: #fafafa !important;
+  /* width: 100% !important; */
+  max-width: 1000px !important;
 }
 
-.bbminiform-amtbox,
-.bbminiform-button,
-.bbminiform-otheramount {
-  border: 1px solid #003d79;
-  color: #003d79;
-}
-
-label.bbDonationInputLabel {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.bbminiform-clear.giftAmountHeading,
-.bbminiform-clear.giftTypeHeading {
-  padding-bottom: 18px;
-  padding-top: 24px;
-}
-
-.mdfGiftTypeBtnMain.mdfGiftTypeBtnMainSelected {
-  float: none;
-  display: inline-block;
-}
-
-.mdfGiftTypeBtnMain {
-  float: none;
-  display: inline-block;
-}
-
-.bbminiform-list-group > div,
-.mdfGiftTypeBtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.bbminiform-amtboxmain {
-  float: none;
-  display: inline-block;
-}
-
-.bbminiform-row-amount > .bbminiform-list-group {
-  display: flex;
-  justify-content: center;
-}
-
-.bbminiform-row-amount > .bbminiform-list-group > div.bbminiform-amtboxmain {
-  display: inline-block;
-}
-
-div#PC1929_divDesig {
-  display: block;
-  margin: 24px 0;
-  padding-bottom: 24px;
-}
-
-.bbminiform-container,
-.section__more-info {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.bbminiform-drpdowndiv {
-  float: none !important;
-  text-align: center;
-  margin: 24px 0;
-  padding-right: 0;
-}
-
-.bbminiform-amtboxmain,
-.bbminiform-amtbox {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-input#txtOtherAmount {
-  font-size: 16px;
-}
-
-input#txtOtherAmount::placeholder {
-  color: #003d79;
-}
-
-.mdfGiftTypeBtn {
-  font-size: 16px;
-}
-
-select.bbminiform-drpdown {
-  margin: auto;
-  display: block;
-  background-color: #fff;
-}
-
-.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
-  float: none !important;
-  padding: 0;
-}
-
-h2.bbSectionHeader {
-  font-size: 32px;
-  margin: 0.5em 0;
-  text-transform: none;
-  text-align: center;
-  display: block;
-}
-.bbminiform-row {
-  display: block;
-}
-
-.bcmsWizard > .bcmsWizardStepsContainer > .bcmsWizardSteps > .bcmsWizardStep {
-  float: none;
-  padding: 0;
-  display: inline-block;
-}
-.bcmsWizard > .bcmsWizardStepsContainer > .bcmsWizardSteps {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.bcmsWizard
-  > .bcmsWizardStepsContainer
-  > .bcmsWizardSteps
-  > .bcmsWizardStep
-  > .btn {
-  font-size: 16px;
-}
-.bcmsWizard {
-  margin: 25px 0;
-}
-.bbminiform-amtbox:hover,
-.bbminiform-button:hover,
-#btnCompleteDDPayment:hover,
-.mdfGiftTypeBtnMain:hover,
-button.btnWizardFinish.btn:hover {
-  color: #ffffff;
-  font-weight: bold;
-  background-color: #3f86cc;
-  border-color: #3f86cc;
-}
-.bbminiform-clear.bbMarginBottom5px {
-  text-align: center;
-}
-button#btnWizardContinue {
-  float: none !important;
-}
-.skyContainer .btn {
-  margin: auto;
-  display: block;
-  font-size: 16px;
-}
-i.fa {
-  font-family: fontAwesome !important;
-}
-.form-introduction > p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-#dvPersonalInfoContent,
-#dvDirectDebitContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#dvPersonalInfoContent > div,
-#dvDirectDebitContent > div {
-  min-width: 300px;
-  margin: 15px 0;
-}
-
-div#addrUnited_States > div {
-  margin: 25px 0;
-}
-
-.bcmsWizard
-  > .bcmsWizardStepsContainer
-  > .bcmsWizardSteps
-  > .bcmsWizardStep
-  > .btn-completed {
-  color: #003d79;
-  background-color: #dbedff;
-}
-
-button.btnWizardFinish.btn,
-#btnCompleteDDPayment {
-  background-color: #003d79;
-  float: none;
-  margin: 0;
-}
-
-div#wizardFooter div#buttonWrapper button#btnWizardBack,
-#btnCancelDDPayment,
-div#dvPaymentButtons button#btnWizardBack {
-  float: none;
-  display: block;
-  margin: 0 25px;
-}
-
-div#buttonWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-div#dvFormContainer.bbminiform-container {
-  padding: 0;
-}
-
-.section__more-info h3 {
-  font-weight: 700;
-  font-size: 24px;
-  text-transform: uppercase;
-  margin: 0.5em 0 1em 0;
-}
-
-.section__more-info {
-  font-family: "franklin-gothic-urw", arial, sans-serif;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.section__more-info ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.section__more-info ul li {
-  padding: 10px 15px;
-  margin-right: 12px;
-  background-color: #fff;
-  font-size: 16px;
-}
-
-.section__more-info ul li a:link,
-.section__more-info ul li a:visited {
-  font-weight: 500;
+#email-link {
   text-decoration: none;
-  color: #003d79;
+  color: #101010;
 }
 
-.section__more-info ul li a:hover {
-  text-decoration: underline;
-}
-.mdfFrequencyBtnMain.mdfFrequencyBtnMainSelected {
-  float: none;
-  width: 100%;
-  max-width: 150px;
-  margin: auto;
-}
-div#PC1949_divRecurrenceDetails {
+div#blackbaud-donation-form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
-
-div#dvRecurringFrequencyOptions {
-  width: 100%;
-  text-align: center;
+  justify-content: center;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 479px) {
-  h1.main2019 {
+  h1.mainDonationForm {
     padding: 0 10px;
   }
-  .bcmsWizard > .bcmsWizardStepsContainer > .bcmsWizardSteps {
-    display: block;
-  }
 
-  .bcmsWizard > .bcmsWizardStepsContainer > .bcmsWizardSteps > .bcmsWizardStep {
-    float: left;
+  iframe#form_3e9ccc21-300f-48b0-9eac-07d2933a8cdf {
+    width: 100% !important;
   }
-  .bbminiform-row-amount > .bbminiform-list-group {
-    flex-wrap: wrap;
-  }
-  div#wizardFooter div#buttonWrapper button#btnWizardBack,
-  #btnCancelDDPayment,
-  div#dvPaymentButtons button#btnWizardBack,
-  #dvPersonalInfoContent,
-  #dvDirectDebitContent {
-    margin-left: 0;
-  }
-  div#buttonWrapper {
-    flex-wrap: wrap;
-  }
-  button#btmMakePayment,
-  button#btnDirectDebit {
-    width: 80%;
-    margin-bottom: 7px;
-  }
-  div#wizardFooter div#buttonWrapper button#btnWizardBack,
-  #btnCancelDDPayment,
-  div#dvPaymentButtons button#btnWizardBack {
-    margin-right: 0;
-    width: 80%;
-  }
-  button#btnWizardContinue {
-    margin-left: 0;
-    margin-top: 7px;
-    width: 80%;
-  }
-  div#buttonWrapper.bbminiform-buttonwrapper {
-    margin-left: 0;
-  }
-  h1.main2019 {
+  h1.mainDonationForm {
     font-size: 48px;
-  }
-  .section__more-info ul li {
-    margin-top: 7px;
   }
 }
